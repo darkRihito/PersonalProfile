@@ -49,8 +49,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row px-4 md:px-8 relative">
-          <div id="aside" className="border-2 border-yellow-100 w-5/6 mx-auto relative -top-10 h-96">
+        <div className="flex flex-col md:flex-row px-4 md:px-14 gap-4 md:gap-8 relative">
+          <div id="aside" className="border-2 border-yellow-100 w-full max-w-sm mx-auto relative -top-10 h-[32rem]">
             <div id="profile">profile</div>
           </div>
           <div id="content" className="border-2 border-red-200 flex-grow">
