@@ -51,10 +51,12 @@ export default function Home() {
 
         <div className="flex flex-col lg:flex-row px-4 md:px-14 gap-4 md:gap-8 relative">
           <div id="aside" className="border-2 border-yellow-100 bg-yellow-100 w-full max-w-xl lg:max-w-xs relative -top-10 h-[18rem] lg:h-[32rem]">
-            <div id="profile">profile</div>
+            <div id="profile">
+              <div className=""></div>
+            </div>
           </div>
           <div id="content" className="border-2 border-red-200 bg-red-200 flex-grow h-full min-h-[36rem]">
-            content
+            
           </div>
         </div>
       </div>
