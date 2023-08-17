@@ -31,7 +31,7 @@ export default function Home() {
               className="h-52 flex items-start justify-center md:justify-end pt-12 px-8 md:px-12 max-w-[120rem] w-full mx-auto"
             >
               <div id="navigationMenu" className="">
-                <ul className="flex flex-wrap items-center justify-center text-xl font-medium text-gray-500 dark:text-white gap-8 md:gap-12">
+                <ul className="flex flex-wrap items-center justify-center text-xl font-normal text-gray-500 dark:text-white gap-8 md:gap-12">
                   <li>
                     <a href="#" className="hover:underline">
                       Home
@@ -39,12 +39,12 @@ export default function Home() {
                   </li>
                   <li>
                     <a href="#" className="hover:underline">
-                      Contact
+                      Dashboard
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline ">
-                      Dashboard
+                    <a href="#" className="hover:underline">
+                      Contact
                     </a>
                   </li>
                 </ul>
@@ -66,7 +66,7 @@ export default function Home() {
                         alt="avatar"
                       />
                       <div className="font-medium dark:text-white">
-                        <div className="text-2xl mt-4">Rihito kun</div>
+                        <div className="text-2xl mt-4">Riku kun</div>
                         <div className="text-lg mt-1 font-normal text-gray-500 dark:text-gray-400">
                           Front-end / Fullstack Developer
                         </div>
@@ -219,10 +219,105 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div
-                id="content"
-                className="flex-grow h-full min-h-[36rem]"
-              ></div>
+              <div id="content" className="flex-grow h-full min-h-[36rem]">
+                <div className="">
+                  <div id="navigationMenu" className="">
+                    <ul className="flex flex-wrap items-center justify-around text-xl font-medium text-gray-500 dark:text-white gap-8 md:gap-12">
+                      <a href="#" className="hover:underline">
+                        <li className="flex items-center space-x-2 justify-center text-base">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#000000"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                          </svg>
+                          <div className="">Profile</div>
+                        </li>
+                      </a>{" "}
+                      <a href="#" className="hover:underline">
+                        <li className="flex items-center space-x-2 justify-center text-base ">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#000000"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                          </svg>
+                          <div className="">My Project</div>
+                        </li>
+                      </a>
+                      <a href="#" className="hover:underline ">
+                        <li className="flex items-center space-x-2 justify-center text-base">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#000000"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                          </svg>
+                          <div className="">Certification</div>
+                        </li>
+                      </a>
+                      <a href="#" className="hover:underline ">
+                        <li className="flex items-center space-x-2 justify-center text-base">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#000000"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                          </svg>
+                          <div className="">Gallery</div>
+                        </li>
+                      </a>
+                      <a href="#" className="hover:underline ">
+                        <li className="flex items-center space-x-2 justify-center text-base">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="#000000"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                          </svg>
+                          <div className="">Certification</div>
+                        </li>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
