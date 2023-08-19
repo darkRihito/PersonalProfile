@@ -1,0 +1,17 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-snap::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-snap {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#thumbnail {
+    background-image: url(https://images7.alphacoders.com/768/768576.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
