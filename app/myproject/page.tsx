@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, { useState } from "react";
 import ProjectCard from "./../../components/projectcard/projectcard";
 
@@ -72,16 +72,10 @@ export default function Page() {
     // ... other project objects
   ];
 
-  const [visibleProjects, setVisibleProjects] = useState<number>(4); // Initial number of visible projects
-
-  const loadMore = () => {
-    setVisibleProjects((prevVisibleProjects) => prevVisibleProjects + 4); // Increase the number of visible projects
-  };
-
   return (
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-x-4 gap-y-8">
-        {projects.slice(0, visibleProjects).map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}
@@ -90,16 +84,6 @@ export default function Page() {
           />
         ))}
       </div>
-      {visibleProjects < projects.length && (
-        <div className="text-center mt-4">
-          <button
-            onClick={loadMore}
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
-          >
-            Load More
-          </button>
-        </div>
-      )}
     </div>
   );
 }
