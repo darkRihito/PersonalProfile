@@ -45,30 +45,48 @@ export default function Page() {
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
       image: "src/",
     },
-    {
-      title: "Company Profile",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-      image: "src/",
-    },
-    {
-      title: "Company Information System",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-      image: "src/",
-    },
-    {
-      title: "Company Inventory Management",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-      image: "src/",
-    },
-    {
-      title: "E-Learning Gamification App",
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-      image: "src/",
-    },
+    // {
+    //   title: "Survey Form to Excel",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "Newsletter Web",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "Company Profile",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "Login Authentication Page",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "Company Information System",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "Company Inventory Management",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
+    // {
+    //   title: "E-Learning Gamification App",
+    //   description:
+    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+    //   image: "src/",
+    // },
     // ... other project objects
   ];
 

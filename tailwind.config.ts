@@ -14,6 +14,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'inter': ['"Inter"', 'sans-serif'],
+        'montserrat': ['"Montserrat"', 'sans-serif'],
+        'poppins': ['"Poppins"', 'sans-serif'],
+        'pt-serif': ['"PT Serif"', 'serif'],
+        'roboto': ['"Roboto"', 'sans-serif'],
+        'ubuntu': ['"Ubuntu"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

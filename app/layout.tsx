@@ -4,20 +4,13 @@ import Link from "next/link";
 
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "RihitoKun",
   description: "Personal profile web: Muhammad Rafi Shidiq",
 };
 
-export default function Layout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <>
@@ -58,17 +51,24 @@ export default function Layout({
                   <div id="profile" className="">
                     <div className="">
                       <div className="flex flex-col items-center justify-center text-center h-full my-4">
-                        <img
-                          className=" w-28 h-28 rounded-full"
-                          src="https://api.dicebear.com/6.x/thumbs/svg?seed=Maggie"
-                          alt="avatar"
-                        />
+                        <div className="relative">
+                          <img
+                            className=" w-32 h-32 rounded-full"
+                            src="./Assets/profile.jpg"
+                            alt="avatar"
+                          />
+                          <span className="w-max top-0 absolute bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+                            Open to Work
+                          </span>
+                        </div>
                         <div className="font-medium dark:text-white">
-                          <div className="text-2xl mt-4">M. Rafi Shidiq</div>
+                          <h3 className="mt-4 text-3xl font-bold dark:text-white">
+                            M Rafi Shidiq
+                          </h3>
                           <div className="text-lg mt-1 font-normal text-gray-500 dark:text-gray-400">
-                            Front-end / Fullstack Developer
+                            Programmer / Designer
                           </div>
-                          <div className="font-normal mx-6 mt-6">
+                          <div className="font-normal mx-6 mt-6 ">
                             Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit. Cupiditate, ullam hic. Nisi, perferendis.
                             Inventore consectetur dicta atque asperiores
@@ -107,7 +107,7 @@ export default function Layout({
                           <div className="">
                             <button
                               type="button"
-                              className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center"
+                              className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-md px-5 py-2.5 text-center text-md"
                             >
                               Download CV
                             </button>
@@ -163,10 +163,13 @@ export default function Layout({
                           </div>
                         </div>
                         <div className="flex mt-12 gap-x-6">
-                          <a href="https://instagram.com/darkrihito?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"  target="_blank">
+                          <a
+                            href="https://instagram.com/darkrihito?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+                            target="_blank"
+                          >
                             <svg
-                              width="32px"
-                              height="32px"
+                              width="24px"
+                              height="24px"
                               viewBox="0 0 24 24"
                               id="meteor-icon-kit__regular-instagram"
                               fill="none"
@@ -189,8 +192,8 @@ export default function Layout({
                             </svg>
                           </a>
                           <svg
-                            width="32px"
-                            height="32px"
+                            width="24px"
+                            height="24px"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -214,7 +217,7 @@ export default function Layout({
                         </div>
                         <hr className="h-px mt-12 mb-4 bg-gray-800 border w-4/5 dark:bg-gray-700" />
                         <div className="font-normal mx-6 mt-6 text-slate-400 text-md">
-                          Lorem ipsum dolor sit amet consectetur.
+                          Copyright by Rihito
                         </div>
                       </div>
                     </div>
@@ -265,7 +268,10 @@ export default function Layout({
                               <div className="">My Project</div>
                             </li>
                           </a>
-                          <Link href="/certification" className="hover:underline ">
+                          <Link
+                            href="/certification"
+                            className="hover:underline "
+                          >
                             <li className="flex items-center space-x-2 justify-center text-base">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +289,7 @@ export default function Layout({
                               <div className="">Certification</div>
                             </li>
                           </Link>
-                          <a href="#" className="hover:underline ">
+                          <Link href="/gallery" className="hover:underline ">
                             <li className="flex items-center space-x-2 justify-center text-base">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -307,7 +313,7 @@ export default function Layout({
                               </svg>
                               <div className="">Gallery</div>
                             </li>
-                          </a>
+                          </Link>
                           <a href="#" className="hover:underline ">
                             <li className="flex items-center space-x-2 justify-center text-base">
                               <svg
