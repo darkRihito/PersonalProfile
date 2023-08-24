@@ -1,5 +1,4 @@
 import React from "react";
-import Alert from "./alert";
 
 export default function page() {
   return (
@@ -12,10 +11,10 @@ export default function page() {
             </span>{" "}
             Me.
           </h1>
-          <div className="text-gray-500 md:text-2xl dark:text-gray-400 mb-8 font-inter">
+          <div className="text-secondary md:text-2xl dark:text-gray-400 mb-8 font-inter">
             ¬ Front-End Developer, Fullstack Developer, UI/UX Designer
           </div>
-          <p className="mb-8 text-lg text-gray-500 md:text-xl dark:text-gray-400 first-letter:text-5xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
+          <p className="mb-8 text-lg text-secondary md:text-lg dark:text-gray-400 first-letter:text-5xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
             Highly motivated web developer experienced in both front-end and
             full-stack development. Proficient in HTML, CSS, JavaScript, React,
             Node.js, various databases, and cloud environment. I have a track
@@ -61,7 +60,7 @@ export default function page() {
                 <cite className="pr-3 font-medium text-gray-900 dark:text-white">
                   Hellen Keller
                 </cite>
-                <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
+                <cite className="pl-3 text-sm text-secondary dark:text-gray-400">
                   Author & Activist
                 </cite>
               </div>
@@ -126,13 +125,13 @@ export default function page() {
                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                           Universitas Pendidikan Indonesia
                         </h3>
-                        <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                        <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-secondary">
                           Current · Ungraduated · Bachelor Degree · Computer Science
                         </time>
-                        <div className="text-sm text-gray-500 dark:text-gray-400 font-medium ">
+                        <div className="text-sm text-secondary dark:text-gray-400 font-medium ">
                           IPK: 3.85 of 4
                         </div>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                        <p className="text-base font-normal text-secondary dark:text-gray-400">
                           Active Project Collaboration; Gemastik 2022
                           Competition; Assistant Lecturer & Voluntary;
                           Programming Organization OSTRIC; Dinamik UPI Comitee;
@@ -198,16 +197,16 @@ export default function page() {
                           Online
                         </span>
                       </h3>
-                      <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                      <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-secondary">
                         Feb 2023 - Jul 2023 · Jakarta, Indonesia · Jarak jauh
                       </time>
-                      <div className="text-sm text-gray-500 dark:text-gray-400 font-medium ">
+                      <div className="text-sm text-secondary dark:text-gray-400 font-medium ">
                         Graduated with Distinction
                       </div>
                     </div>
                   </div>
 
-                  <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p className="mb-4 text-base font-normal text-secondary dark:text-gray-400">
                     Over the past six months, I've diligently pursued mastery in
                     Google Cloud Technology and Backend Development through
                     comprehensive online courses on platforms like Coursera and
@@ -247,11 +246,11 @@ export default function page() {
                       Offline
                     </span>
                   </h3>
-                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-secondary">
                     Feb 2022 - Mei 2022 · Bandung, Jawa Barat, Indonesia · Di
                     lokasi
                   </time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p className="text-base font-normal text-secondary dark:text-gray-400">
                     I served as a Computer Networking Assistant Lecturer,
                     responsible for creating engaging lesson plans, conducting
                     practical sessions, supervising high school-level
@@ -268,11 +267,11 @@ export default function page() {
                       Offline
                     </span>
                   </h3>
-                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-secondary">
                     Feb 2022 - Mei 2022 · Bandung, Jawa Barat, Indonesia · Di
                     lokasi
                   </time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p className="text-base font-normal text-secondary dark:text-gray-400">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
                     eligendi ab iure esse labore tempora maxime temporibus ipsum
                     debitis, recusandae dolor in dignissimos deleniti asperiores
@@ -287,11 +286,11 @@ export default function page() {
                       Offline
                     </span>
                   </h3>
-                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-gray-500">
+                  <time className="block mb-2 text-sm font-normal  text-gray-400 dark:text-secondary">
                     Feb 2022 - Mei 2022 · Bandung, Jawa Barat, Indonesia · Di
                     lokasi
                   </time>
-                  <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p className="text-base font-normal text-secondary dark:text-gray-400">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Consectetur incidunt quibusdam facilis pariatur placeat
                     voluptatibus. Distinctio minus nam id! Optio quo animi at

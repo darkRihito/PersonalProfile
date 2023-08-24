@@ -43,7 +43,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
             <div className="max-w-[120rem] mx-auto mb-16">
-              <div className="flex flex-col lg:flex-row px-4 md:px-14 gap-x-4 md:gap-x-16 relative bg-slate-50">
+              <div className="flex flex-col lg:flex-row px-4 md:px-14 gap-x-4 md:gap-x-16 relative bg-light">
                 <div
                   id="aside"
                   className="w-full lg:max-w-xs relative -top-16 bg-white rounded-lg py-4 h-full"
@@ -62,17 +62,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                           </span>
                         </div>
                         <div className="font-medium dark:text-white">
-                          <h3 className="mt-4 text-3xl font-bold dark:text-white">
+                          <h3 className="mt-4 text-3xl font-bold dark:text-white text-black">
                             M Rafi Shidiq
                           </h3>
-                          <div className="text-lg mt-1 font-normal text-gray-500 dark:text-gray-400">
+                          <div className="text-lg mt-1 font-normal text-secondary dark:text-gray-400">
                             Programmer / Designer
                           </div>
                           <div className="font-normal mx-6 mt-6 ">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Cupiditate, ullam hic. Nisi, perferendis.
-                            Inventore consectetur dicta atque asperiores
-                            quisquam
+                            Hello and welcome to my personal website! I am a
+                            20-year-old computer science student who loves to
+                            code, play video games, watch anime, and write. I am
+                            also curious about the worlds of art and graphic
+                            design, and philosophy.
                           </div>
                         </div>
                         <a href="https://github.com/darkRihito">
@@ -107,8 +108,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                           <div className="">
                             <button
                               type="button"
-                              className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-md px-5 py-2.5 text-center text-md"
+                              className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-md px-5 py-2.5 text-center text-md flex items-center gap-2"
                             >
+                              <span>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="#fafafa"
+                                  strokeWidth="1.5"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path d="M21.2 15c.7-1.2 1-2.5.7-3.9-.6-2-2.4-3.5-4.4-3.5h-1.2c-.7-3-3.2-5.2-6.2-5.6-3-.3-5.9 1.3-7.3 4-1.2 2.5-1 6.5.5 8.8M12 19.8V12M16 17l-4 4-4-4" />
+                                </svg>
+                              </span>
                               Download CV
                             </button>
                           </div>
@@ -186,12 +202,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                                   fillRule="evenodd"
                                   clipRule="evenodd"
                                   d="M11.9962 0.0078125C8.73824 0.0078125 8.32971 0.021622 7.05019 0.080003C5.77333 0.138241 4.90129 0.341051 4.13824 0.637622C3.34938 0.944146 2.68038 1.35434 2.01343 2.02124C1.34652 2.68819 0.936333 3.35719 0.629809 4.14605C0.333238 4.9091 0.130429 5.78115 0.0721905 7.058C0.0138095 8.33753 0 8.74605 0 12.0041C0 15.262 0.0138095 15.6705 0.0721905 16.9501C0.130429 18.2269 0.333238 19.099 0.629809 19.862C0.936333 20.6509 1.34652 21.3199 2.01343 21.9868C2.68038 22.6537 3.34938 23.0639 4.13824 23.3705C4.90129 23.667 5.77333 23.8698 7.05019 23.9281C8.32971 23.9864 8.73824 24.0002 11.9962 24.0002C15.2542 24.0002 15.6627 23.9864 16.9422 23.9281C18.2191 23.8698 19.0911 23.667 19.8542 23.3705C20.643 23.0639 21.312 22.6537 21.979 21.9868C22.6459 21.3199 23.0561 20.6509 23.3627 19.862C23.6592 19.099 23.862 18.2269 23.9202 16.9501C23.9786 15.6705 23.9924 15.262 23.9924 12.0041C23.9924 8.74605 23.9786 8.33753 23.9202 7.058C23.862 5.78115 23.6592 4.9091 23.3627 4.14605C23.0561 3.35719 22.6459 2.68819 21.979 2.02124C21.312 1.35434 20.643 0.944146 19.8542 0.637622C19.0911 0.341051 18.2191 0.138241 16.9422 0.080003C15.6627 0.021622 15.2542 0.0078125 11.9962 0.0078125ZM11.9962 2.16929C15.1993 2.16929 15.5788 2.18153 16.8437 2.23924C18.0133 2.29257 18.6485 2.488 19.0712 2.65229C19.6312 2.86991 20.0308 3.12986 20.4506 3.54967C20.8704 3.96943 21.1303 4.36905 21.348 4.929C21.5122 5.35172 21.7077 5.98691 21.761 7.15653C21.8187 8.42148 21.831 8.80091 21.831 12.0041C21.831 15.2071 21.8187 15.5866 21.761 16.8515C21.7077 18.0211 21.5122 18.6563 21.348 19.0791C21.1303 19.639 20.8704 20.0386 20.4506 20.4584C20.0308 20.8782 19.6312 21.1381 19.0712 21.3558C18.6485 21.5201 18.0133 21.7155 16.8437 21.7688C15.579 21.8265 15.1996 21.8388 11.9962 21.8388C8.79286 21.8388 8.41352 21.8265 7.14871 21.7688C5.97909 21.7155 5.3439 21.5201 4.92119 21.3558C4.36124 21.1381 3.96162 20.8782 3.54186 20.4584C3.1221 20.0386 2.8621 19.639 2.64448 19.0791C2.48019 18.6563 2.28476 18.0211 2.23143 16.8515C2.17371 15.5866 2.16148 15.2071 2.16148 12.0041C2.16148 8.80091 2.17371 8.42148 2.23143 7.15653C2.28476 5.98691 2.48019 5.35172 2.64448 4.929C2.8621 4.36905 3.12205 3.96943 3.54186 3.54967C3.96162 3.12986 4.36124 2.86991 4.92119 2.65229C5.3439 2.488 5.97909 2.29257 7.14871 2.23924C8.41367 2.18153 8.7931 2.16929 11.9962 2.16929ZM11.9962 16.0028C9.78776 16.0028 7.99748 14.2125 7.99748 12.0041C7.99748 9.79558 9.78776 8.00529 11.9962 8.00529C14.2047 8.00529 15.995 9.79558 15.995 12.0041C15.995 14.2125 14.2047 16.0028 11.9962 16.0028ZM11.9962 5.84381C8.594 5.84381 5.836 8.60181 5.836 12.0041C5.836 15.4062 8.594 18.1642 11.9962 18.1642C15.3984 18.1642 18.1564 15.4062 18.1564 12.0041C18.1564 8.60181 15.3984 5.84381 11.9962 5.84381ZM18.3998 7.03996C19.1949 7.03996 19.8394 6.39548 19.8394 5.60043C19.8394 4.80538 19.1949 4.16086 18.3998 4.16086C17.6048 4.16086 16.9603 4.80538 16.9603 5.60043C16.9603 6.39548 17.6048 7.03996 18.3998 7.03996Z"
-                                  fill="#758CA3"
+                                  fill="#94a3b8"
                                 ></path>
                               </g>
                             </svg>
                           </a>
-                          <svg
+                          <a href="https://www.facebook.com/darkrihito/">
+                            <svg
                             width="24px"
                             height="24px"
                             viewBox="0 0 24 24"
@@ -210,14 +227,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                                 fillRule="evenodd"
                                 clipRule="evenodd"
                                 d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
-                                fill="#758CA3"
+                                fill="#94a3b8"
                               ></path>{" "}
                             </g>
                           </svg>
+                          </a>
+                          
                         </div>
-                        <hr className="h-px mt-12 mb-4 bg-gray-800 border w-4/5 dark:bg-gray-700" />
-                        <div className="font-normal mx-6 mt-6 text-slate-400 text-md">
-                          Copyright by Rihito
+                        <hr className="h-px mt-12 mb-4 border-ternary2 border w-4/5" />
+                        <div className="font-normal mx-6 mt-6 text-ternary text-sm">
+                          Copyright © 2023 Rihito. All Rights Reserved.
                         </div>
                       </div>
                     </div>
@@ -230,7 +249,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   >
                     <div className="">
                       <div id="navigationMenu" className="">
-                        <ul className="flex flex-wrap items-center justify-start lg:justify-around text-xl font-medium text-gray-500 dark:text-white gap-12 lg:gap-8 md:gap-12 lg:mt-12 w-max lg:w-full ">
+                        <ul className="flex flex-wrap items-center justify-start lg:justify-around text-xl font-medium text-secondary dark:text-white gap-12 lg:gap-8 md:gap-12 lg:mt-12 w-max lg:w-full ">
                           <Link href="/" className="hover:underline">
                             <li className="flex items-center space-x-2 justify-center text-base">
                               <svg
