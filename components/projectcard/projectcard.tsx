@@ -11,7 +11,7 @@ export default function ProjectCard(props: projectCardProps) {
     <>
       <div className="w-full bg-slate-50 border border-gray-200 rounded-2xl dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <img className="rounded-t-2xl h-32" src={props.image} alt="" />
+          <img className="rounded-t-2xl h-32 object-cover w-full" src={props.image} alt="" />
         </a>
         <div className="p-5">
           <a href="#">

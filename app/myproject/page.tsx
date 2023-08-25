@@ -13,7 +13,7 @@ export default function Page() {
     {
       title: "Mobile & Web App: Nutiast Health Monitoring",
       description: "Lorem ipsum, dolor sit amet...",
-      image: "src/",
+      image: "./Assets/Projects/nutriast-project.png",
     },
     {
       title: "Shiroplane Artworks Gallery",
@@ -45,49 +45,115 @@ export default function Page() {
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
       image: "src/",
     },
-    // {
-    //   title: "Survey Form to Excel",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "Newsletter Web",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "Company Profile",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "Login Authentication Page",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "Company Information System",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "Company Inventory Management",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
-    // {
-    //   title: "E-Learning Gamification App",
-    //   description:
-    //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
-    //   image: "src/",
-    // },
+    {
+      title: "Survey Form to Excel",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Newsletter Web",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Company Profile",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Login Authentication Page",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Company Information System",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Company Inventory Management",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "E-Learning Gamification App",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Random Meal Generator",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
     // ... other project objects
+    {
+      title: "FAQ Generator",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Shopee Lite",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Javascript Hapi Notes",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Numerical Method",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "PHP ToDo List",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Java Hop Game",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Perpustakaan Laravel",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Diabetes Classification",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Amazon Go Clone",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
+    {
+      title: "Simple Bookshelf API Js",
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis architecto sequi fugit et! Optio, provident.",
+      image: "src/",
+    },
   ];
 
   return (
