@@ -334,7 +334,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                               <div className="">Gallery</div>
                             </li>
                           </Link>
-                          <a href="#" className="hover:underline ">
+                          <Link href="/blog" className="hover:underline ">
                             <li className="flex items-center space-x-2 justify-center text-base">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -352,7 +352,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                               </svg>
                               <div className="">Blog</div>
                             </li>
-                          </a>
+                          </Link>
                         </ul>
                       </div>
                     </div>
