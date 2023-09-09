@@ -1,9 +1,12 @@
 import React from 'react'
+import ConsoleButton from './../../components/consoletest/consoletest'
 
 export default function Page() {
   return (
     <>
-    <div className=""></div>
+    <div className="">
+      <ConsoleButton />
+    </div>
     </>
   )
 }
